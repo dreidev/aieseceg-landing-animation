@@ -1,0 +1,34 @@
+import './styles/styles.css';
+import './styles/style.css';
+import './styles/normalize.css';
+import './styles/gs-timeline.css';
+import './styles/progressjs.min.css';
+import './styles/action-call.css';
+import './styles/contact-form.css';
+import './scripts/jquery/jquery.min.js';
+import './scripts/gsap/src/uncompressed/TweenMax.js';
+import './scripts/gsap/src/uncompressed/plugins/MorphSVGPlugin.js';
+import './scripts/gsap/src/uncompressed/plugins/DrawSVGPlugin.js';
+import './scripts/gsap/src/uncompressed/utils/Draggable';
+import './scripts/progress.min.js';
+import './scripts/GreenProp.js';
+import './scripts/CustomEase.js';
+import * as Snap from 'snapsvg-cjs';
+import './scripts/main/timelineControle';
+import './scripts/main/board';
+import './scripts/main/tweens';
+import './scripts/main/objects';
+import './scripts/main/scenes';
+import './scripts/main/scenes/allelements';
+import './scripts/main/scenes/breakapart';
+import './scripts/main/scenes/youngpeople';
+import './scripts/main/animate';
+import './scripts/main/page';
+import './scripts/main/resize';
+import startAddingScenes from './addingScenes';
+
+const load = async () => {
+  await startAddingScenes();
+  console.log('loaded');
+};
+load();

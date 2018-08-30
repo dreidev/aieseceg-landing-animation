@@ -1,0 +1,51 @@
+#gs-ctrl {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+}
+#gs-ctrl > *{
+    position: relative;
+    width:100%;
+    background-color:#ccc;
+    border-top: 1px solid #000;
+}
+
+#gs-ctrl *{
+    cursor:default;
+    font-size:11px;
+}
+
+#gs-buttons *{
+    display:inline-block;
+    vertical-align:middle;
+    }
+
+#gs-buttons button {
+    padding:3px 6px;
+}
+
+#gs-timeline span{
+    display:block;
+    height:30px;
+    line-height: 30px;
+    text-indent:15px;
+    width:50%;
+    background:rgba(0, 0, 0, 0.5);
+    color:#FFF;
+}
+
+#gs-labels{
+    height: 16px;
+}
+
+#gs-labels span{
+    position: absolute;
+    border-left:1px solid red;
+    padding:2px;
+    margin-left:-1px;
+    color:red;
+    font-size:9px;
+    font-weight:bold;
+    text-transform: uppercase;
+    cursor:pointer;
+    }

@@ -1,0 +1,93 @@
+.story-form {
+    display: inline-flex;
+    position: absolute;
+    width: 50%;
+    height: 20%;
+    bottom: 50%;
+    left: 25%;
+}
+
+.contact h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    position: relative;
+    top: 7%;
+}
+
+@media only screen and (max-width: 780px) {
+    .story-form {
+        display: block;
+    }
+    .form-left,
+    .form-right {
+        padding: 1px;
+    }
+    .story-form .form-left input,
+    .story-form .form-right input,
+    .story-form .form-right textarea,
+    .story-form .form-right button {
+        margin: 2px;
+    }
+}
+
+.form-left,
+.form-right {
+    display: block;
+    height: 100%;
+    width: 50%;
+    padding: 10px;
+    position: relative;
+}
+
+.story-form .form-left input,
+.story-form .form-right input,
+.story-form .form-right textarea,
+.story-form .form-right button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+}
+
+.story-form input::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: white;
+}
+
+.story-form input::-moz-placeholder {
+    /* Firefox 19+ */
+    color: white;
+}
+
+.story-form input:-ms-input-placeholder {
+    /* IE 10+ */
+    color: white;
+}
+
+.story-form input:-moz-placeholder {
+    /* Firefox 18- */
+    color: white;
+}
+
+.story-form .form-left input:focus,
+.story-form .form-right input:focus,
+.story-form .form-right textarea:focus {
+    border: 1px solid #fff;
+    outline: none;
+}
+
+.story-form .form-right textarea {
+    position: relative;
+    height: 6.9em;
+    max-height: 6.9em;
+    resize: none;
+}
+
+.story-form .form-right button {
+    position: relative;
+    border-radius: 4px;
+}

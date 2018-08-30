@@ -1,0 +1,95 @@
+.scene {
+    height: 65%;
+}
+.action-call {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 45ex;
+    height: 35ex;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    color: #fff;
+    padding: 2.5ex;
+    cursor: pointer;
+}
+.action-call:hover, .action-call:visited, .action-call:focus {
+    text-decoration: none;
+    color: #fff;
+}
+.action-call.action-call-left {
+    margin-left: -30%;
+    left: 50%;
+}
+.action-call.action-call-right {
+    margin-left: 30%;
+    right: 50%;
+}
+.action-call .action-icon {
+    position: absolute;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 30ex;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    -webkit-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+}
+.action-call:hover .action-icon {
+    opacity: 0
+}
+.action-icon-title {
+    margin-top: 1ex;
+    font-size: 9ex;
+}
+.action-call .action-icon-icon {
+    font-size: 14ex;
+    margin-top: 0.5ex;
+}
+.action-call .action-title {
+    position: absolute;
+    bottom: 0ex;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 5ex;
+    width: 100%;
+    font-weight: 300;
+    -webkit-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+}
+.action-call:hover .action-title {
+    opacity: 0
+}
+.action-call .action-text {
+    opacity: 0;
+    font-size: 4.5ex;
+    margin-top: 1.5ex;
+    -webkit-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+    font-weight: 400;
+}
+.action-call .action-text.action-text-small {
+    margin-top: 1ex;
+    font-size: 4ex;
+}
+.action-call:hover .action-text {
+    opacity: 1
+}
+
+.action-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 18ex;
+}
+.action-link .action-link-text {
+    position: absolute;
+    display: none;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFjdGlvbi1jYWxsLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLG1CQUFtQjtJQUN0QixTQUFBO0lBQ0csVUFBVTtJQUNWLFlBQVk7SUFDWixhQUFhO0lBQ2IsaUJBQWlCO0lBQ2pCLG1CQUFtQjtJQUNuQix1QkFBdUI7SUFDdkIsb0JBQW9CO0lBQ3BCLHlDQUFpQztZQUFqQyxpQ0FBaUM7SUFDakMsWUFBWTtJQUNaLGFBQWE7SUFDYixnQkFBZ0I7Q0FDbkI7QUFDRDtJQUNJLHNCQUFzQjtJQUN0QixZQUFZO0NBQ2Y7QUFDRDtJQUNJLGtCQUFrQjtJQUNsQixVQUFVO0NBQ2I7QUFDRDtJQUNJLGlCQUFpQjtJQUNqQixXQUFXO0NBQ2Q7QUFDRDtJQUNJLG1CQUFtQjtJQUNuQixtQkFBbUI7SUFDbkIsU0FBUztJQUNULFVBQVU7SUFDVixZQUFZO0lBQ1oseUNBQWlDO1lBQWpDLGlDQUFpQztJQUNqQyxpQ0FBeUI7SUFBekIseUJBQXlCO0NBQzVCO0FBQ0Q7SUFDSSxVQUFVO0NBQ2I7QUFDRDtJQUNJLG1CQUFtQjtJQUNuQixhQUFhO0lBQ2IsVUFBVTtJQUNWLHlDQUFpQztJQUlqQyxpQ0FKQTtJQUNBLGVBQWU7SUFDZixZQUFZO0lBQ1osaUJBQWlCO0lBQ2pCLGlDQUF5QjtJQUF6Qix5QkFBeUI7Q0FDNUI7QUFDRDtJQUNJLFVBQVU7Q0FDYjtBQUNEO0lBQ0ksV0FBVztJQUNYLGVBQWU7SUFDZixnQkFBZ0I7SUFDaEIsaUNBQXlCO0lBQXpCLHlCQUF5QjtJQUN6QixpQkFBaUI7Q0FDcEI7QUFDRDtJQUNJLFVBQVU7Q0FDYiIsImZpbGUiOiJhY3Rpb24tY2FsbC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuYWN0aW9uLWNhbGwge1xuICAgIFxufSJdfQ== */
